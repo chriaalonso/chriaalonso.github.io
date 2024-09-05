@@ -1,0 +1,13 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/********************Media********************/
+@media screen and (min-width: 7em) { /*112px > 367px*/ .yt{width: 20px;}}
+@media screen and (min-width: 23em) { /*368px > 415px*/ .wrap{width: 60px; margin-top: 25%;} .yt{width: 30px;}}
+@media screen and (min-width: 26em) { /*416px > 591px*/ .yt{width: 40px;}}
+@media screen and (min-width: 37em) { /*592px > 719px*/ .wrap{width: 100%; margin-top: 0;}}
+@media screen and (min-width:45em) { /*720px > 991px*/ .yt{width: 40px;}}
+@media screen and (min-width:62em) { /*992px > 1119px*/ .yt{width: 50px;}}
+@media screen and (min-width:70em) { /*1120px > 1439px*/ }
+@media screen and (min-width:90em) { /*1440px > 1669px */ }
+@media screen and (min-width:100em) { /*> 1670px */ .yt{width: 60px;}}
